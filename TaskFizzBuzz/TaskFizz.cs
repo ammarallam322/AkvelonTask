@@ -64,7 +64,7 @@ namespace TaskFizzBuzz
             {
                 outputBuilder.Append(s + " ");
             }
-            return $"{outputBuilder.ToString().TrimEnd()}"+$"\n{this.Count}";
+            return $"{outputBuilder.ToString().TrimEnd()}"+$"\n count: {this.Count}";
 
         }
 

@@ -91,7 +91,7 @@ namespace TaskFizzBuzzTests
             string result = task.CheckFizzBuzz();
 
             //assert
-            Assert.Equal($"abc1 abc2 FIZZ abc4 BUZZ FIZZ abc7 abc8 FIZZ BUZZ"+"\n5", result.ToString());
+            Assert.Equal($"abc1 abc2 FIZZ abc4 BUZZ FIZZ abc7 abc8 FIZZ BUZZ"+ "\n count: 5", result.ToString());
 
         }
         
@@ -106,7 +106,7 @@ namespace TaskFizzBuzzTests
             string result = task.CheckFizzBuzz();
 
             //assert
-            Assert.Equal("abc1 abc2 FIZZ abc4 BUZZ FIZZ abc7 abc8 FIZZ BUZZ abc11 FIZZ abc13 abc14 FIZZBuzz abc16 abc17" + "\n7", result.ToString());
+            Assert.Equal("abc1 abc2 FIZZ abc4 BUZZ FIZZ abc7 abc8 FIZZ BUZZ abc11 FIZZ abc13 abc14 FIZZBuzz abc16 abc17" + "\n count: 7", result.ToString());
 
         }
 
@@ -121,7 +121,7 @@ namespace TaskFizzBuzzTests
             //ac
             string result = task.CheckFizzBuzz();
             //assert
-            Assert.Equal("abc1 abc2 FIZZ abc4 BUZZ"+"\n2",result.ToString());
+            Assert.Equal("abc1 abc2 FIZZ abc4 BUZZ"+ "\n count: 2", result.ToString());
 
 
         }
